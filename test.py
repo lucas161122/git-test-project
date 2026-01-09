@@ -1,12 +1,12 @@
-def add(x, y):
-    return x + y
+a = 0
+b = ""
+c = None
 
+if a:
+    print("good")
 
-result = 0
+if not b:
+    print("bad")
 
-for i in range(11):
-    num = add(result, i)
-    result = num
-print(result)
-
-# terminal will print 55(right number)
+if c:
+    print("ok")
