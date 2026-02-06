@@ -31,6 +31,11 @@ if c:
 # output: bad
 ```
 
+### how to enter Ubuntu 24.04
+1. 打开powershell
+2. wsl -d Ubuntu-24.04
+
+
 ### git command 
 - git status: 查看文件是否有改动以及是否被追踪
 - git add 文件名1 文件名2: 追踪文件1，文件2
