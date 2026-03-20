@@ -43,4 +43,34 @@ if c:
 - git commit -m "存档说明": 存档
 - git log: 确认存档成功并查看所有历史存档
 - git push origin main : 推送到远程main分支
-- 
+
+
+### 类class
+- instance实例化
+- __init__初始化
+- inhiritance继承
+
+```python
+class Player:
+    def talk(self):
+        print("I am a player")
+
+
+class JumpPlayer(Player):
+    def jump(self):
+        print("I am jumpping")
+
+
+class RunPlayer(Player):
+    def run(self):
+        print("I am runing")
+
+
+lucas = JumpPlayer()
+lucas.jump()
+
+
+oscar = RunPlayer()
+oscar.run()
+
+```
