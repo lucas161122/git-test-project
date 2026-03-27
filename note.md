@@ -74,3 +74,22 @@ oscar = RunPlayer()
 oscar.run()
 
 ```
+
+### 模块
+- 引用方式
+- import 模块名
+- from 模块名 import 函数名
+
+
+### 包
+##### 引用方式
+- import 包名(要按顺序：包.模块.函数)
+- from 包 import 模块
+- from 包.模块 import 函数
+
+
+### 随机数
+- 导入方式：import random
+- 0 - 1 之间的随机数 `random.random()`
+- m - n 之间的随机整数`random.randint(m,n)`
+
