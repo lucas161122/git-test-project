@@ -93,3 +93,14 @@ oscar.run()
 - 0 - 1 之间的随机数 `random.random()`
 - m - n 之间的随机整数`random.randint(m,n)`
 
+### 文件操作
+```python
+from pathlib import Path
+p = Path('文件或文件夹路径名')
+# 接着就可以调用p的一些方法，比如p.is_dir(),rmdir()...
+```
+### pypi和pip的关系
+- pypi是python包的仓库，github for python packages
+- pip is tool for installing packages
+- openpyxl包来操作xlsx文件和添加chart
+
